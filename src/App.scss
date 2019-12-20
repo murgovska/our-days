@@ -1,0 +1,14 @@
+
+.app {
+  display: flex;
+}
+
+.content {
+  margin-left: 232px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  transform: translateX(0);
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,29 @@
+@import '../../../styles/variables.scss';
+
+ul {
+  list-style-type: none;
+  margin-top: 5rem;
+  padding: 0;
+  text-align: left;;
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    color: $white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: .5rem;;
+    cursor: pointer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &.active {
+      font-weight: 700;
+      color: $amber;
+    }
+  }
+}
